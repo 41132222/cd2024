@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41132222協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T08:19:26+08:00</updated><entry><title>第七周網誌</title><link href="./w7.html" rel="alternate"></link><published>2024-04-04T16:00:00+08:00</published><updated>2024-04-11T08:10:21+08:00</updated><author><name>411232222</name></author><id>tag:None,2024-04-04:./w7.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41132222協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-17T13:24:48+08:00</updated><entry><title>第七周網誌</title><link href="./w7.html" rel="alternate"></link><published>2024-04-04T16:00:00+08:00</published><updated>2024-04-11T08:10:21+08:00</updated><author><name>411232222</name></author><id>tag:None,2024-04-04:./w7.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 &lt;h1&gt;23&lt;/h1&gt;
@@ -15,10 +15,13 @@
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 &lt;h1&gt;群組分工作業內容&lt;/h1&gt;
-&lt;p&gt;教學影片分組整理並自評: * 在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上 * 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排 * 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點 * 需再加上自評&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>41132222 第四周網誌</title><link href="./w4.html" rel="alternate"></link><published>2024-03-14T16:00:00+08:00</published><updated>2024-04-11T08:13:28+08:00</updated><author><name>411232222</name></author><id>tag:None,2024-03-14:./w4.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;p&gt;教學影片分組整理並自評: * 在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上 * 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排 * 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點 * 需再加上自評&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>41132222 第四周網誌</title><link href="./w4.html" rel="alternate"></link><published>2024-03-14T16:00:00+08:00</published><updated>2024-04-17T13:24:48+08:00</updated><author><name>411232222</name></author><id>tag:None,2024-03-14:./w4.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 &lt;h1&gt;第四周網誌&lt;/h1&gt;
+&lt;p&gt;翻譯老師給的論文
+本人翻譯頁數71-85頁
+雲敦連結: https://drive.google.com/file/d/17MKbJqt5k6b-HR9U92pu1BFiwq0AyOca/view?usp=drive_link&lt;/p&gt;
 &lt;p&gt;分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時若導入 Source Tree 協助各組員更清楚看到倉儲改版架構, 另外 Git Branch 的應用.&lt;/p&gt;
 &lt;h1&gt;Github 個人與分組倉儲的維護方式&lt;/h1&gt;
 &lt;p&gt;個人的倉儲名稱為 cd2024, 而期中的分組倉儲位於 mdecd2024 帳號下, 以2a 開頭, 加上 "-" 之後再補上 midag + 組別, 且各組員的 cd2024 個人倉儲必須設為各分組倉儲的子模組, 目的在各組員可以自行管理並維護自己的&lt;/p&gt;</content><category term="41132222 w4"></category><category term="網誌編寫"></category></entry><entry><title>41132222 第三周網誌</title><link href="./w3.html" rel="alternate"></link><published>2024-03-07T15:00:00+08:00</published><updated>2024-04-11T08:13:28+08:00</updated><author><name>41132222</name></author><id>tag:None,2024-03-07:./w3.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
