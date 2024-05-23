@@ -142,14 +142,24 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">教學影片打心得 << <a href='教學影片打心得.html'>Previous</a> <a href='w12.html'>Next</a> >> w12<br /><h1>期中整合</h1>
-<p>影片</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/w6_8JzKVoiY" width="560"></iframe></p>
-<p>心得:</p>
-<p>這一學期也過一半了，在這堂課中我學到了如何跟組員分工合作與練習打網誌還有畫nx零件圖，在分工合作的過程中我有很多不會的，然後我們組長也都很熱心的幫忙我解決推送網誌的問題，互相幫忙才有其中這麼好的成果。</p>
-<!-- editor2 結束 -->
+    <div id="tipue_search_content">Brython << <a href='Brython.html'>Previous</a> <a href='期中整合.html'>Next</a> >> 期中整合<br /><h1>教學影片打心得</h1>
 <p></p>
-<br />教學影片打心得 << <a href='教學影片打心得.html'>Previous</a> <a href='w12.html'>Next</a> >> w12</div>
+<div style="width: 600px; height: 300px;"></div>
+<div style="width: 600px; height: 300px;"></div>
+<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
+<p><!-- 存擋表單開始 --></p>
+<form><label>Filename: <input id="kw_filename2" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="Save"/></form>
+<p><!-- 存擋表單結束 --></p>
+<p></p>
+<p><!-- 執行與清除按鈕開始 --></p>
+<p><button id="kw_run2">Run</button> <button id="kw_show_console2">Output</button> <button id="kw_clear_console2">清除輸出區</button><button id="clear_bd2">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
+<p><!-- 執行與清除按鈕結束 --></p>
+<p></p>
+<p><!-- 程式執行 ouput 區 --></p>
+<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
+<p><!-- Brython 程式執行的結果, 都以 brython_div1 作為切入位置 --></p>
+<div id="brython_div2"></div>
+<br />Brython << <a href='Brython.html'>Previous</a> <a href='期中整合.html'>Next</a> >> 期中整合</div>
 
     <!-- footer -->
       <div class="container">
