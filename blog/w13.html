@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>第六周網誌</title>
+  <title>第十三周網誌</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -40,11 +40,11 @@
   <![endif]-->
 
 
-    <link href="./w6.html" rel="canonical" />
+    <link href="./w13.html" rel="canonical" />
 
-        <meta name="description" content="2024 Spring 網際內容管理與協同產品設計實習課程教學導引.">
+        <meta name="description" content="2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件">
 
-        <meta name="author" content="411232222">
+        <meta name="author" content="41132222">
 
         <meta name="tags" content="網誌編寫">
 
@@ -53,15 +53,15 @@
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="41132222協同產品設計"/>
-<meta property="og:title" content="第六周網誌"/>
-<meta property="og:description" content="2024 Spring 網際內容管理與協同產品設計實習課程教學導引."/>
+<meta property="og:title" content="第十三周網誌"/>
+<meta property="og:description" content="2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./w6.html"/>
+<meta property="og:url" content="./w13.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2024-03-28 16:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-06-04 11:29:01.042162+08:00"/>
-<meta property="article:author" content="./author/411232222.html">
-<meta property="article:section" content="w6"/>
+<meta property="article:published_time" content="2024-05-02 15:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-06-04 11:43:37.386132+08:00"/>
+<meta property="article:author" content="./author/41132222.html">
+<meta property="article:section" content="41132222 w13"/>
 <meta property="article:tag" content="網誌編寫"/>
 <meta property="og:image" content="./theme/images/post-bg.jpg">
 
@@ -71,18 +71,18 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "第六周網誌",
-  "headline": "第六周網誌",
-  "datePublished": "2024-03-28 16:00:00+08:00",
-  "dateModified": "2024-06-04 11:29:01.042162+08:00",
+  "name": "第十三周網誌",
+  "headline": "第十三周網誌",
+  "datePublished": "2024-05-02 15:00:00+08:00",
+  "dateModified": "2024-06-04 11:43:37.386132+08:00",
   "author": {
     "@type": "Person",
-    "name": "411232222",
-    "url": "./author/411232222.html"
+    "name": "41132222",
+    "url": "./author/41132222.html"
   },
   "image": "./theme/images/post-bg.jpg",
-  "url": "./w6.html",
-  "description": "2024 Spring 網際內容管理與協同產品設計實習課程教學導引."
+  "url": "./w13.html",
+  "description": "2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -204,11 +204,11 @@ init_mathjax();
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">第六周網誌</h1>
+        <h1 class="post-title">第十三周網誌</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
-                <a href="./author/411232222.html">411232222</a>
-            | <time datetime="Thu 28 March 2024">Thu 28 March 2024</time>
+                <a href="./author/41132222.html">41132222</a>
+            | <time datetime="Thu 02 May 2024">Thu 02 May 2024</time>
         </span>
         <!-- TODO : Modified check -->
             <span class="post-meta"> | Updated on Tue 04 June 2024</span>
@@ -231,14 +231,21 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>2024 Spring 網際內容管理與協同產品設計實習課程教學導引.</p>
+                <p>2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件</p>
 
-<h1>新增教學影片心得</h1>
-<p>第一部
-第二部
-第三部
-第五部
-第六部</p>
+<h1>模擬場景建構</h1>
+<p>因為 Solvespace 內建的 Export Scale Factor 為 1:1=mm, 表示 STL 中 export 的數字為 mm, 因此若將 Solvespace 中 120mmx120mm 的 STL 平台, 以 1:1 直接 import 進入 CoppeliaSim, 將會得到 120mx120m 的龐然大物. 
+import 進入 CoppeliaSim, 開始鋼球平衡台.</p>
+<h1>利用零件 Hole 產生對應 Cylinder 元件</h1>
+<p>1.利用夠深的零件孔壁中的各節點, 可以在 Shape Editor 模式下建立 Cylinder 元件, 其步驟如下:</p>
+<p>2.選擇帶有 Hole (可能必須夠深) 的零件.</p>
+<p>3.利用 CoppeliaSim 左側的 Shape Editor 按鈕, 將場景轉換為 Shape Editor 模式.</p>
+<p>4.利用滑鼠中鍵滑動, 將場景正對所要生成 Cylinder 元件的孔位置, 然後利用滑鼠中間的滾輪將孔儘量拉近.</p>
+<p>5.利用滑鼠左鍵將 Shape Editor 出現的內建視窗, 從 Triangle edit mode, 轉為 Vertex edit mode, 然後左手按住 Shift, 右手滑鼠左鍵按下後, 從左上至右下的位置涵蓋整個孔的位置.</p>
+<p>6.將 Shape Editor 模式的 Vertex edit mode 切回 Triangle edit mode, 然後利用 Extract Clinder 功能, 針對上列步驟所選到的 Vertex(圓孔的內壁點座標) 作為依據, 建立一個圓柱體 (Cylinder) 元件.</p>
+<p>7.關閉 Shape Editor 內建表單視窗後, 選擇 Yes 或 No 都可完成上述從孔的內壁點座標生成圓柱體的步驟.</p>
+<h1>在 CoppeliaSim Divide 組立件</h1>
+<p>當採 STL 組立件轉入場景後, 其組立件為一體, 也就是全部被視為一個整體零件. 為了進行後續組立, 將各零件分開將組立件 Divide 後, 所有的零件將擁有絕對的共同座標系均以共同座標為原點,因為採 Solvespace 繪製的鋼球平衡台, 並沒有繪製各機構(四連桿)連接軸, 因此將零組件導入 CoppeliaSim 後, 必須利用夠深的孔, 在 Shape Editor 模式下建立各連接孔的對應軸, 後續才能將轉動軸元件與新建的連接軸位置與方位進行定位。</p>
             </section>
 
             <section class="post-info">
@@ -252,17 +259,17 @@ init_mathjax();
 
 
                 <aside class="post-nav">
-                    <a class="post-nav-next" href="./w7.html">
+                    <a class="post-nav-next" href="./w11.html">
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-left"></i>
-                                <h2 class="post-nav-title">第七周網誌</h2>
+                                <h2 class="post-nav-title">第十一周網誌</h2>
                             <p class="post-nav-excerpt">2024 Spring 網際內容管理與協同產品設計實習課程教學導引.</p>
                         </section>
                     </a>
-                    <a class="post-nav-prev" href="./w5.html">
+                    <a class="post-nav-prev" href="./w9.html">
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-right"></i>
-                                <h2 class="post-nav-title">第五周網誌</h2>
+                                <h2 class="post-nav-title">第九周網誌</h2>
                             <p class="post-nav-excerpt">2024 Spring 網際內容管理與協同產品設計實習課程教學導引.</p>
                         </section>
                     </a>
